@@ -2,15 +2,15 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/outscale/outscale" {
-  version     = "0.11.0"
-  constraints = "0.11.0"
+  version     = "0.12.0"
+  constraints = "0.12.0"
   hashes = [
-    "h1:bcPP/M/cmIGFd62Tqz92w0gMpHuIDY8WTqiArkvo2sI=",
-    "zh:31bed3925e67735a6fb93565fa79a2375326ee424246dbb389cb804230d6d4da",
-    "zh:45142a8a29232b438aac6c603a152c596ff18c5e8012a1924a123b1e67a3fb12",
-    "zh:6e1df55308888e1b70a4e59e15c34ff508e772a11529bc5b82aa881fc20844cc",
-    "zh:7ee5700b29a9c6da22d5650c379872c27b07aeb001bd53e96deb8c7d94de5dee",
-    "zh:97e880da5937e4071921948587041ea99cf0cd19153a444c3b2b0bf1ed4454b9",
-    "zh:f162f0d4cce9504890d1f5a57e3c692922d3ba4f7edfb90f3b6c0e18ebdc966c",
+    "h1:jvN3G1b9GqEbpYSC6cmrHhFn7YgBJTO8ec0YTPre7rs=",
+    "zh:639aa14613a4046f2f95dfa3f4a457610aa779ed864e534276610dfd092df3c4",
+    "zh:6b3aaadae60997f75f906fab2ffdccc09ff52d74fb7adf5c1d21e13a86393fe9",
+    "zh:90ec4cca76a5918734acbc71ad2e6f33ab1ce525929f89275e299af85943f951",
+    "zh:cbf41c7c5d99591f08b03a6515c3a0108739709d6fd17bbb159bbb81e844e7af",
+    "zh:ccf2bf24e7ddb872e820532fa317ea6fed1361cb497d3941e170555e624ec252",
+    "zh:fc5d50fe4a1f2376c24b2c08f421ad0e9162d18327bb9f7b12d64ac97f45f85b",
   ]
 }
