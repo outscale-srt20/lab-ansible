@@ -1,6 +1,6 @@
 resource "outscale_vm" "webserver1" {
   image_id     = "ami-4b2651bc"
-  vm_type      = "tinav6.c2r4p1"
+  vm_type      = "tinav6.c2r4p3"
   keypair_name = outscale_keypair.keypair01.keypair_name
   security_group_ids = [
     outscale_security_group.sg-ssh-all-tp.security_group_id,
@@ -10,7 +10,7 @@ resource "outscale_vm" "webserver1" {
   state       = "running"
   tags {
     key   = "Name"
-    value = "weberver1"
+    value = "webserver1"
   }
   tags {
     key   = "Group"
@@ -18,13 +18,13 @@ resource "outscale_vm" "webserver1" {
   }
   tags {
     key   = "Env"
-    value = "lab-ansible"
+    value = "lab_ansible"
   }
 }
 
-resource "outscale_vm" "weberver2" {
+resource "outscale_vm" "webserver2" {
   image_id     = "ami-4b2651bc"
-  vm_type      = "tinav6.c2r4p1"
+  vm_type      = "tinav6.c2r4p3"
   keypair_name = outscale_keypair.keypair01.keypair_name
   security_group_ids = [
     outscale_security_group.sg-ssh-all-tp.security_group_id,
@@ -34,7 +34,7 @@ resource "outscale_vm" "weberver2" {
   state       = "running"
   tags {
     key   = "Name"
-    value = "weberver2"
+    value = "webserver2"
   }
   tags {
     key   = "Group"
@@ -42,13 +42,13 @@ resource "outscale_vm" "weberver2" {
   }
   tags {
     key   = "Env"
-    value = "lab-ansible"
+    value = "lab_ansible"
   }
 }
 
 resource "outscale_vm" "database1" {
   image_id     = "ami-4b2651bc"
-  vm_type      = "tinav6.c2r4p1"
+  vm_type      = "tinav6.c2r4p3"
   keypair_name = outscale_keypair.keypair01.keypair_name
   security_group_ids = [
     outscale_security_group.sg-ssh-all-tp.security_group_id,
@@ -66,6 +66,6 @@ resource "outscale_vm" "database1" {
   }
   tags {
     key   = "Env"
-    value = "lab-ansible"
+    value = "lab_ansible"
   }
 }

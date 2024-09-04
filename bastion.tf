@@ -26,7 +26,7 @@ resource "outscale_vm" "bastion-tp" {
   }
   tags {
     key   = "Env"
-    value = "lab-ansible"
+    value = "lab_ansible"
   }
 }
 
