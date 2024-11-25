@@ -1,0 +1,24 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.mdx": "markdown",
+    "*.yml": "yaml",
+    ".gitlab-ci.yml": "yaml",
+    // Ansible
+    "**/defaults/**/*.yml": "yaml",
+    "**/group_vars/**/*": "yaml",
+    "**/host_vars/**/*": "yaml",
+    "**/vars/**/*.yml": "yaml",
+    "**/tasks/**/*.yml": "ansible",
+    "**/handlers/*.yml": "ansible",
+    "**/meta/*.yml": "yaml",
+    "**/roles/**/*.yml": "ansible",
+    "**/playbooks/**/*.yml": "ansible",
+    "**/ansible/**/hosts": "ini",
+    "**/ansible/**/inventory": "ini",
+    "**/ansible/templates/*.j2": "ansible-jinja",
+    "**/molecule/**/*.yml": "ansible",
+    "**/molecule/**/molecule.yml": "yaml",
+    "ansible.cfg": "ini",
+  }
+}
